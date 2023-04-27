@@ -1,3 +1,2 @@
-gentoo:default/linux/amd64/23.0/llvm/systemd
+gentoo:default/linux/amd64/17.1/systemd/clang/merged-usr
 gentoo:arch/amd64/no-multilib
-gentoo:features/merged-usr
