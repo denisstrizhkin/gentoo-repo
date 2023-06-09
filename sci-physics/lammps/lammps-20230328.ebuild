@@ -113,6 +113,9 @@ src_configure() {
 		-DPKG_PYTHON=$(usex python)
 		-DPKG_MPIIO=$(usex mpi)
 		-DPKG_VORONOI=ON
+		-DPKG_OPENMP=ON
+		-DPKG_EXTRA-FIX=ON
+		-DPKG_EXTRA-COMPUTE=ON
 	)
 	if use cuda || use opencl || use hip; then
 		mycmakeargs+=( -DPKG_GPU=ON )
