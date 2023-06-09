@@ -1,2 +1,3 @@
 amd64 llvm-merged-usr-no-multilib dev
+amd64 llvm-merged-usr-no-multilib-plasma deb
 amd64 openrc-merged-usr dev
